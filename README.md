@@ -28,7 +28,7 @@ _(Sprint 2: uma linha para cada rota da API)_
 
 # Acompanhamento do projeto
 
-**Quadro usado:** _(preencher: GitHub Projects ou Trello)_
+**Quadro usado:** GitHub Projects 
 
 ## Sprint 1 — Tarefas
 
