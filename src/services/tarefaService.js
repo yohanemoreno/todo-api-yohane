@@ -8,4 +8,10 @@ const STATUS = ["a_fazer", "fazendo", "feita"];
 
 // As funcoes do service entram aqui.
 
-module.exports = {};
+async function listarTarefas(filtros) {
+const [linhas] = await db.query("SELECT * FROM tarefas");
+let resultado = linhas;
+return resultado;
+}
+
+module.exports = { listarTarefas };
