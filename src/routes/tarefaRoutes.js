@@ -8,5 +8,6 @@ const router = express.Router();
 
 // As rotas de /tarefas entram aqui. Exemplo:
 router.get("/", tarefaController.listar);
+router.get("/:id", validarId, tarefaController.buscarPorId);
 
 module.exports = router;
