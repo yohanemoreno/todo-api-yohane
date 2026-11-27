@@ -19,4 +19,12 @@ async function buscarTarefaPorId(id) {
   return linhas[0];
 }
 
-module.exports = { listarTarefas, buscarTarefaPorId };
+async function criarTarefa(dados) {
+const [resultado] = await db.query(
+"INSERT INTO tarefas (titulo, prioridade, status) VALUES (?, ?, ?)",
+[dados.titulo, dados.prioridade, dados.status],
+);
+return await buscarTarefaPorId(resultado.insertId);
+}
+
+module.exports = { listarTarefas, buscarTarefaPorId, criarTarefa };
