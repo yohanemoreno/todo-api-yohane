@@ -40,7 +40,7 @@ _(Sprint 2: uma linha para cada rota da API)_
 
 ![Quadro no fim do Sprint 1](docs/sprint1-fim.png)
 
-**Placar do `npm run conferir`:** Sprint 1: _(preencher)_ de 14 · Bônus: _(preencher)_ de 5
+**Placar do `npm run conferir`:** Sprint 1: 14 de 14 · Bônus: _(preencher)_ de 5
 
 ## Sprint 2 — Categorias e relacionamento
 
